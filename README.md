@@ -12,7 +12,7 @@ This repository contains the code for the paper "SplatSim".
 ### Clone this repository
 ```bash
 cd ~/code
-git clone --recursive https://github.com/qureshinomaan/SplatSim.git
+git clone --recursive https://github.com/AlbertoLyons/SplatSim.git
 ```
 
 If you accidentally forgot the `--recursive`, run this command to download the files for the `submodules` folder: `git submodule update --init --recursive`
@@ -29,11 +29,11 @@ conda activate splatsim
 
 Go to https://pytorch.org/get-started/locally/ to find the right commands for your system. For example, this repo worked with this configuration:
   - torch==2.7.1
-  - torchaudio=2.7.1+cu126
-  - torchvision=0.22.1+cu126
+  - torchaudio=2.7.1+cu121
+  - torchvision=0.22.1+cu121
 
 ```bash
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 ```
 
 ### Install submodules
